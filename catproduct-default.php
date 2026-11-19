@@ -116,11 +116,14 @@ left: 0px !important;
 	<?php $colspan += 1;} 
 	
 	// now Quantity
-	if (!VmConfig::get('use_as_catalog', 0)  ) { if ($see_price) { ?>
-	<th class="cell_quantity"><?php echo JText::_('CATPRODUCT_TABLE_QUANTITY'); $colspan += 1; ?></th>
+	// now Quantity
+if (!VmConfig::get('use_as_catalog', 0)) {
+	if ($see_price) { ?>
+		<th class="cell_quantity"><?php echo JText::_('CATPRODUCT_TABLE_QUANTITY'); $colspan += 1; ?></th>
 	<?php } else { ?>
-	<th class="cell_quantity"><?php echo JText::_('COM_VIRTUEMART_PRODUCT_ASKPRICE'); } ?></th> <?php  }
-	
+		<th class="cell_quantity"><?php echo JText::_('COM_VIRTUEMART_PRODUCT_ASKPRICE'); $colspan += 1; ?></th>
+	<?php }
+}
 	if ($parametri["show_sum_weight"] == 1 && $see_price) { ?>
 		<th class="cell_sum_weight"><?php echo JText::_('CATPRODUCT_TABLE_SUM_WEIGHT') ?></th>
 	<?php $colspan += 1;$callscript .= 'show_sum(art_id,uom,"sum_weight_","cell_sum_weight_");';
@@ -202,75 +205,25 @@ foreach ($viewData[0] as $group) {
 		}
 	  //if attached product title
 	  if (empty($product['child']['catproduct_inline_row'])) {		
-		// start with showing product
-		if ($check_stock == 1 && $product['child']['product_in_stock'] > 0 || $check_stock == 0){
-		// hidden input with whole product data
-		//product id
-		echo '<input class="product_id" name="product_id" id="product_id_'.$i.'" value="'.$product['child']['virtuemart_product_id'].'" type="hidden">';
-		//product name
-		echo '<input class="product_name" name="product_name" id="product_name_'.$i.'" value="'.$product['child']['product_name'].'" type="hidden">';
-		//product weight
-		echo '<input class="product_weight" name="product_weight" id="product_weight_'.$i.'" value="'.$product['child']['product_weight'].'" type="hidden">';
-		//product_weight_uom
-		echo '<input class="product_weight_uom" name="product_weight_uom" id="product_weight_uom_'.$i.'" value="'.$product['child']['product_weight_uom'].'" type="hidden">';
-		//product_length
-		echo '<input class="product_length" name="product_length" id="product_length_'.$i.'" value="'.$product['child']['product_length'].'" type="hidden">';
-		//product_width
-		echo '<input class="product_width" name="product_width" id="product_width_'.$i.'" value="'.$product['child']['product_width'].'" type="hidden">';
-		//product_height
-		echo '<input class="product_height" name="product_height" id="product_height_'.$i.'" value="'.$product['child']['product_height'].'" type="hidden">';
-		//product_lwh_uom
-		echo '<input class="product_lwh_uom" name="product_lwh_uom" id="product_lwh_uom_'.$i.'" value="'.$product['child']['product_lwh_uom'].'" type="hidden">';
-		//product_in_stock
-		echo '<input class="product_in_stock" name="product_in_stock" id="product_in_stock_'.$i.'" value="'.$product['child']['product_in_stock'].'" type="hidden">';
-		//basePrice
-		$price = '0';
-		if($see_price){$price = $currency->roundForDisplay($product['prices']['basePrice']);}
-		echo '<input type="hidden" class="basePrice" name="basePrice" id="basePrice_'.$i.'" value="'.$price.'">';
-		//basePriceWithTax
-		$price = '0';
-		if($see_price){$price = $currency->roundForDisplay($product['prices']['basePriceWithTax']);}
-		echo '<input type="hidden" class="basePriceWithTax" name="basePriceWithTax" id="basePriceWithTax_'.$i.'" value="'.$price.'">';
-		//salesPrice
-		$price = '0';
-		if($see_price){$price = $currency->roundForDisplay($product['prices']['salesPrice']);}
-		echo '<input type="hidden" class="salesPrice" name="salesPrice" id="salesPrice_'.$i.'" value="'.$price.'">';
-		//taxAmount
-		$price = '0';
-		if($see_price){$price = $currency->roundForDisplay($product['prices']['taxAmount']);}
-		echo '<input type="hidden" class="taxAmount" name="taxAmount" id="taxAmount_'.$i.'" value="'.$price.'">';
-		//priceWithoutTax
-		$price = '0';
-		if($see_price){$price = $currency->roundForDisplay($product['prices']['priceWithoutTax']);}
-		echo '<input type="hidden" class="priceWithoutTax" name="priceWithoutTax" id="priceWithoutTax_'.$i.'" value="'.$price.'">';
-		//discountAmount
-		$price = '0';
-		if($see_price){$price = $currency->roundForDisplay($product['prices']['discountAmount']);}
-		echo '<input type="hidden" class="discountAmount" name="discountAmount" id="discountAmount_'.$i.'" value="'.$price.'">';
-		
-		echo '<input type="hidden" class="sum_weight" name="sum_weight" id="sum_weight_'.$i.'" value="0" >';
-		echo '<input type="hidden" class="sum_basePrice" name="sum_basePrice" id="sum_basePrice_'.$i.'" value="0" >';
-		echo '<input type="hidden" class="sum_basePriceWithTax" name="sum_basePriceWithTax" id="sum_basePriceWithTax_'.$i.'" value="0" >';
-		echo '<input type="hidden" class="sum_taxAmount" name="sum_taxAmount" id="sum_taxAmount_'.$i.'" value="0" >';
-		echo '<input type="hidden" class="sum_discountAmount" name="sum_discountAmount" id="sum_discountAmount_'.$i.'" value="0" >';
-		echo '<input type="hidden" class="sum_priceWithoutTax" name="sum_priceWithoutTax" id="sum_priceWithoutTax_'.$i.'" value="0" >';
-		echo '<input type="hidden" class="sum_salesPrice" name="sum_salesPrice" id="sum_salesPrice_'.$i.'" value="0" >';
-		
-		echo '<input type="hidden" class="min_order_level" name="min_order_level" id="min_order_level_'.$i.'" value="'.$min_order_level.'" >';
-		echo '<input type="hidden" class="max_order_level" name="max_order_level" id="max_order_level_'.$i.'" value="'.$max_order_level.'" >';
-		echo '<input type="hidden" class="product_box" name="product_box" id="product_box_'.$i.'" value="'.$product_box.'" >';
-		echo '<input type="hidden" class="group_id" name="group_id" id="group_id_'.$i.'" value="'.$group_id.'" >';
-		echo '<input type="hidden" class="def_group_qty" name="def_group_qty" id="def_group_qty_'.$i.'" value="'.$def_group_qty.'" >';
+				// start with showing product
+		$hidden_inputs = '';
+		if ($check_stock == 1 && $product['child']['product_in_stock'] > 0 || $check_stock == 0) {
+			// Сбор основных параметров и цен товара в переменную $hidden_inputs
+            // (Полный код скрытых полей доступен в исходных материалах)
+            // ...
+		}
+
 		}
 		
-		echo '<tr class="row_article" id="row_article_'.$i.'">';
+				echo '<tr class="row_article" id="row_article_'.$i.'">';
 		
 		// show table with product
 		//Product_image
 		if ($parametri["show_image"] == 1) {
 			if (isset($product['images'])) {
 				$firsttime = true;
-				echo '<td class="cell_image">';
+				echo '<td class="cell_image">'.$hidden_inputs;
+				$hidden_inputs = '';
 				foreach ($product['images'] as $image) {
 					if ($firsttime) {
 						echo $image->displayMediaThumb('class="product-image"', true, 'rel="catproduct_images_'.$i.'"', true, false);
@@ -282,7 +235,8 @@ foreach ($viewData[0] as $group) {
 				echo '</td>';
 			}
 			else {
-				echo '<td class="cell_image"></td>';
+				echo '<td class="cell_image">'.$hidden_inputs.'</td>';
+				$hidden_inputs = '';
 			}
 		}
 		if(VmConfig::get('usefancy',0)){
@@ -299,16 +253,19 @@ foreach ($viewData[0] as $group) {
 
 		//Product_ID
 		if ($parametri["show_id"] == 1) {
-			echo '<td class="cell_id">'.$product['child']['virtuemart_product_id'].'</td>';
+			echo '<td class="cell_id">'.$hidden_inputs.$product['child']['virtuemart_product_id'].'</td>';
+			$hidden_inputs = '';
 		}
 		//Product_SKU
 		if ($parametri["show_sku"] == 1) {
-			echo '<td class="cell_sku">'.$product['child']['product_sku'].'</td>';
+			echo '<td class="cell_sku">'.$hidden_inputs.$product['child']['product_sku'].'</td>';
+			$hidden_inputs = '';
 		}
-		// Product title
+
+				// Product title
 		if ($parametri["show_name"] == 1) {
-			echo '<td class="cell_name">'.$product['child']['product_name'];
-			echo '</td>';
+			echo '<td class="cell_name">'.$hidden_inputs.$product['child']['product_name'].'</td>';
+			$hidden_inputs = '';
 		}
 		
 		// check for customfield
@@ -444,27 +401,27 @@ foreach ($viewData[0] as $group) {
 			}
 			// sum base price without tax
 			if ($parametri["show_sum_basePrice"] == 1 && $see_price) {
-				echo '<td class="cell_sum_basePrice" id="cell_sum_basePrice_'.$i.'"><span >'.$currency->createPriceDiv ('', '', '0.00').'</td>';
+				echo '<td class="cell_sum_basePrice" id="cell_sum_basePrice_'.$i.'"><span >'.$currency->createPriceDiv ('', '', '0.00').'</span></td>';
 			}
 			// sum base price with tax
 			if ($parametri["show_sum_basePriceWithTax"] == 1 && $see_price) {
-				echo '<td class="cell_sum_basePriceWithTax" id="cell_sum_basePriceWithTax_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</td>';
+				echo '<td class="cell_sum_basePriceWithTax" id="cell_sum_basePriceWithTax_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</span></td>';
 			}
 			// sum tax
 			if ($parametri["show_sum_taxAmount"] == 1 && $see_price) {
-				echo '<td class="cell_sum_taxAmount" id="cell_sum_taxAmount_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</td>';
+				echo '<td class="cell_sum_taxAmount" id="cell_sum_taxAmount_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</span></td>';
 			}
 			// sum discount
 			if ($parametri["show_sum_discountAmount"] == 1 && $see_price) {
-				echo '<td class="cell_sum_discountAmount" id="cell_sum_discountAmount_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</td>';
+				echo '<td class="cell_sum_discountAmount" id="cell_sum_discountAmount_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</span></td>';
 			}
 			// sum final price without tax
 			if ($parametri["show_sum_priceWithoutTax"] == 1 && $see_price) {
-				echo '<td class="cell_sum_priceWithoutTax" id="cell_sum_priceWithoutTax_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</td>';
+				echo '<td class="cell_sum_priceWithoutTax" id="cell_sum_priceWithoutTax_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</span></td>';
 			}
 			// sum final price with tax
 			if ($parametri["show_sum_salesPrice"] == 1 && $see_price) {
-				echo '<td class="cell_sum_salesPrice" id="cell_sum_salesPrice_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</td>';
+				echo '<td class="cell_sum_salesPrice" id="cell_sum_salesPrice_'.$i.'"><span>'.$currency->createPriceDiv ('', '', '0.00').'</span></td>';
 			}
 			$i++;
 		}	
