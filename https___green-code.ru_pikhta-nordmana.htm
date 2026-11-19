@@ -32,10 +32,10 @@
 	<link href="/templates/shaper_helix3/css/template.css" rel="stylesheet" type="text/css" />
 	<link href="/templates/shaper_helix3/css/presets/preset1.css" rel="stylesheet" class="preset" type="text/css" />
 	<link href="/templates/shaper_helix3/css/frontend-edit.css" rel="stylesheet" type="text/css" />
-	<link href="/plugins/system/spcookieconsent/assets/css/style.css" rel="stylesheet" type="text/css" />
 	<link href="https://green-code.ru//modules/mod_vm_cart/assets/css/style.css" rel="stylesheet" type="text/css" />
 	<style type="text/css">
-.productdetails-view .addtocart-area {display:none;}.orderby-displaynumber {border-bottom: solid #26aae1 0px;border-top: solid #26aae1 1px;}
+.productdetails-view .addtocart-area {display:none;}
+.orderby-displaynumber {border-bottom: solid #26aae1 0px;border-top: solid #26aae1 1px;}
 .orderlistcontainer div.activeOrder { border: solid #26aae1 1px;}
 .avstat {background-color: #26aae1;}
 div.vm-details-button a {background-color: #26aae1;}
@@ -84,12 +84,22 @@ a.scrollup {background-color: #26aae1 !important;}
   color: #26aae1 !important;
   font-size: 18px;}
 
-@media (min-width: 1400px) {
+
+@media (min-width: 1400px) {
 .container {
 max-width: 1140px;
 }
-}#sp-top-menu{ background-color:#ffffff;color:#00587d; }#sp-top-bar{ background-color:#ffffff;color:#333333;padding:20px 0 20px 0; }#sp-top-bar a{color:#00648f;}#sp-top-bar a:hover{color:#29bfff;}#sp-header{ background-color:#26aae1;color:#ffffff; }#sp-header a{color:#ffffff;}#sp-header a:hover{color:#333333;}		.dj-hideitem { display: none !important; }
-#sp-cookie-consent {background-color: #80b601; color: #ffffff; }#sp-cookie-consent a, #sp-cookie-consent a:hover, #sp-cookie-consent a:focus, #sp-cookie-consent a:active {color: #2f5beb; }#sp-cookie-consent .sp-cookie-allow {background-color: #ffffff; color: #333333;}#sp-cookie-consent .sp-cookie-allow:hover, #sp-cookie-consent .sp-cookie-allow:active, #sp-cookie-consent .sp-cookie-allow:focus {color: #333333;}.vmCartModule svg {fill:#ffffff}
+}
+#sp-top-menu{ background-color:#ffffff;color:#00587d; }
+#sp-top-bar{ background-color:#ffffff;color:#333333;padding:20px 0 20px 0; }
+#sp-top-bar a{color:#00648f;}
+#sp-top-bar a:hover{color:#29bfff;}
+#sp-header{ background-color:#26aae1;color:#ffffff; }
+#sp-header a{color:#ffffff;}
+#sp-header a:hover{color:#333333;}
+		.dj-hideitem { display: none !important; }
+
+.vmCartModule svg {fill:#ffffff}
 .cart_top .total_products,
 .cart_content .show_cart a {
 	background:#ffffff;
@@ -104,7 +114,9 @@ max-width: 1140px;
 .cart_top .total strong,
 .cart_top .total strong:hover {
 	color:#ffffff;
-}
+}
+
+
 .cart_content:before{
 	left: 25px;
 	width: 7px;
@@ -132,7 +144,6 @@ max-width: 1140px;
 	<script src="/templates/shaper_helix3/js/jquery.sticky.js" type="text/javascript"></script>
 	<script src="/templates/shaper_helix3/js/main.js" type="text/javascript"></script>
 	<script src="/templates/shaper_helix3/js/frontend-edit.js" type="text/javascript"></script>
-	<script src="/plugins/system/spcookieconsent/assets/js/script.js" type="text/javascript"></script>
 	<script src="https://green-code.ru//modules/mod_vm_cart/assets/js/update_cart.js" type="text/javascript"></script>
 	<script type="text/javascript">
 jQuery(document).ready(function() {
@@ -222,7 +233,8 @@ jQuery(document).ready(function() {
 		sum_field(art_id,quantity,"salesPrice_","sum_salesPrice_");
 		show_sum(art_id,unit,"sum_priceWithoutTax_","cell_sum_priceWithoutTax_");total_field("sum_priceWithoutTax","total_priceWithoutTax",unit);
 	}
-	jQuery(document).ready(function() {
+	
+jQuery(document).ready(function() {
 			jQuery("a[rel=catproduct_images_0]").fancybox({
 			"titlePosition" 	: "inside",
 			"transitionIn"	:	"elastic",
@@ -252,9 +264,11 @@ jQuery(document).ready(function() {
 			"titlePosition" 	: "inside",
 			"transitionIn"	:	"elastic",
 			"transitionOut"	:	"elastic"
-			});});function removeNoQ (text) {
+			});});
+function removeNoQ (text) {
 		return text.replace("Please enter a valid quantity for this item.","%2$s x %1$s was added to your cart.");
-	}//<![CDATA[ 
+	}
+//<![CDATA[ 
 if (typeof Virtuemart === "undefined"){
 	var Virtuemart = {};}
 var vmSiteurl = 'https://green-code.ru/' ;
@@ -266,8 +280,10 @@ Virtuemart.vmLangTag = vmLangTag;
 var Itemid = '&Itemid=1249';
 Virtuemart.addtocart_popup = "1" ; 
 var vmCartError = Virtuemart.vmCartError = "There was an error while updating your cart.";
-var usefancy = true; //]]>
-JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:0,scrolling:"fixed",close:2,labels:{'close':'Закрыть','next':'Далее','previous':'Назад','cancel':'Отмена','numbers':'{$current} из {$total}'},cookie_expiry:"",google_viewer:0},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes",mediafallback:0,mediaselector:"audio,video"});
+var usefancy = true;
+ //]]>
+
+JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:0,scrolling:"fixed",close:2,labels:{'close':'Закрыть','next':'Далее','previous':'Назад','cancel':'Отмена','numbers':'{$current} из {$total}'},cookie_expiry:"",google_viewer:0},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes",mediafallback:0,mediaselector:"audio,video"});
 var sp_preloader = '0';
 
 var sp_gotop = '1';
@@ -306,7 +322,7 @@ var sp_offanimation = 'default';
 { "@context": "https://schema.org",
   "@type": "GardenStore",
   "name": "Green Code",
-  "url": "https://my-site.ru",
+  "url": "https://green-code.ru",
   "telephone": "+7-904-610-69-05",
   "address": {
     "@type": "PostalAddress",
@@ -329,7 +345,7 @@ var sp_offanimation = 'default';
   ],
   "openingHours": "Mo-Su 10:00-22:00",
   "priceRange": "₽₽",
-  "image": "https://my-site.ru/images/LogoNG/logo.png"
+  "image": "https://green-code.ru/images/LogoNG/logo.png"
 }
 </script>
 		
@@ -340,7 +356,7 @@ var sp_offanimation = 'default';
     <body class="site com-virtuemart view-productdetails no-layout no-task itemid-1249 ru-ru ltr  sticky-header layout-fluid off-canvas-menu-init"><div class="dj-offcanvas-wrapper"><div class="dj-offcanvas-pusher"><div class="dj-offcanvas-pusher-in">
 
 <script type="text/javascript">
-var getIP = '95.108.213.206';
+var getIP = '93.100.35.116';
 </script>
 
         <div class="body-wrapper">
@@ -497,7 +513,8 @@ jQuery(document).ready(function(){
         jQuery("#vmCartModule").updateVirtueMartCartModule();
     });
 }); //]]>
-</script></div></div>			<div class='sp-megamenu-wrapper'>
+</script>
+</div></div>			<div class='sp-megamenu-wrapper'>
 				<a id="offcanvas-toggler" class="visible-sm visible-xs" aria-label="HELIX_MENU" href="#"><i class="fa fa-bars" aria-hidden="true" title="HELIX_MENU"></i></a>
 				<ul class="sp-megamenu-parent menu-fade hidden-sm hidden-xs"><li class="sp-menu-item"><a  href="/jolki"  >Все елки</a></li><li class="sp-menu-item"><a  href="/pikhty"  >Пихты</a></li><li class="sp-menu-item"><a  href="/srezannye-jolki"  >срезанные</a></li><li class="sp-menu-item"><a  href="/jolki-v-gorshkakh"  >в горшках</a></li><li class="sp-menu-item"><a  href="/elki-dlya-ulitsy"  >для улицы</a></li><li class="sp-menu-item"><a  href="/kak-ukhazhivat-za-zhivoj-jolkoj-v-kvartire"  >уход</a></li><li class="sp-menu-item"><a  href="/dostavka-novogodnikh-jolok"  >Доставка и оплата</a></li><li class="sp-menu-item"><a  href="/napisat-nam"  >Контакты</a></li></ul>			</div>
 		</div></div></div></div></header><section id="sp-page-title"><div class="container"><div class="row"><div id="sp-title" class="col-lg-12 "><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
@@ -578,7 +595,7 @@ left: 0px !important;
 					<span class="quantity-controls js-recalculate">
 					<input class="quantity-controls quantity-minus" onclick='changeQuantity(2, "minus", 0, 0, 0)' type="button">
 					</span>
-					</td><td class="cell_sum_priceWithoutTax" id="cell_sum_priceWithoutTax_2"><span></td></tr><input class="product_id" name="product_id" id="product_id_3" value="8350" type="hidden"><input class="product_name" name="product_name" id="product_name_3" value="Пихта Нордмана срезанная 200-225см беспатная доставка по СПб" type="hidden"><input class="product_weight" name="product_weight" id="product_weight_3" value="0.0000" type="hidden"><input class="product_weight_uom" name="product_weight_uom" id="product_weight_uom_3" value="KG" type="hidden"><input class="product_length" name="product_length" id="product_length_3" value="0.0000" type="hidden"><input class="product_width" name="product_width" id="product_width_3" value="0.0000" type="hidden"><input class="product_height" name="product_height" id="product_height_3" value="0.0000" type="hidden"><input class="product_lwh_uom" name="product_lwh_uom" id="product_lwh_uom_3" value="M" type="hidden"><input class="product_in_stock" name="product_in_stock" id="product_in_stock_3" value="0" type="hidden"><input type="hidden" class="basePrice" name="basePrice" id="basePrice_3" value="18000"><input type="hidden" class="basePriceWithTax" name="basePriceWithTax" id="basePriceWithTax_3" value="0"><input type="hidden" class="salesPrice" name="salesPrice" id="salesPrice_3" value="18000"><input type="hidden" class="taxAmount" name="taxAmount" id="taxAmount_3" value="0"><input type="hidden" class="priceWithoutTax" name="priceWithoutTax" id="priceWithoutTax_3" value="18000"><input type="hidden" class="discountAmount" name="discountAmount" id="discountAmount_3" value="0"><input type="hidden" class="sum_weight" name="sum_weight" id="sum_weight_3" value="0" ><input type="hidden" class="sum_basePrice" name="sum_basePrice" id="sum_basePrice_3" value="0" ><input type="hidden" class="sum_basePriceWithTax" name="sum_basePriceWithTax" id="sum_basePriceWithTax_3" value="0" ><input type="hidden" class="sum_taxAmount" name="sum_taxAmount" id="sum_taxAmount_3" value="0" ><input type="hidden" class="sum_discountAmount" name="sum_discountAmount" id="sum_discountAmount_3" value="0" ><input type="hidden" class="sum_priceWithoutTax" name="sum_priceWithoutTax" id="sum_priceWithoutTax_3" value="0" ><input type="hidden" class="sum_salesPrice" name="sum_salesPrice" id="sum_salesPrice_3" value="0" ><input type="hidden" class="min_order_level" name="min_order_level" id="min_order_level_3" value="0" ><input type="hidden" class="max_order_level" name="max_order_level" id="max_order_level_3" value="0" ><input type="hidden" class="product_box" name="product_box" id="product_box_3" value="0" ><input type="hidden" class="group_id" name="group_id" id="group_id_3" value="1" ><input type="hidden" class="def_group_qty" name="def_group_qty" id="def_group_qty_3" value="0" ><tr class="row_article" id="row_article_3"><td class="cell_name">Пихта Нордмана срезанная 200-225см беспатная доставка по СПб</td><td class="cell_basePrice"><div id="basePrice_text_3"><div class="PricebasePrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricebasePrice">18000 р</span></div></div></td><td class="cell_quantity">
+					</td><td class="cell_sum_priceWithoutTax" id="cell_sum_priceWithoutTax_2"><span></td></tr><input class="product_id" name="product_id" id="product_id_3" value="8350" type="hidden"><input class="product_name" name="product_name" id="product_name_3" value="Пихта Нордмана срезанная 200-225см бесплатная доставка по СПб" type="hidden"><input class="product_weight" name="product_weight" id="product_weight_3" value="0.0000" type="hidden"><input class="product_weight_uom" name="product_weight_uom" id="product_weight_uom_3" value="KG" type="hidden"><input class="product_length" name="product_length" id="product_length_3" value="0.0000" type="hidden"><input class="product_width" name="product_width" id="product_width_3" value="0.0000" type="hidden"><input class="product_height" name="product_height" id="product_height_3" value="0.0000" type="hidden"><input class="product_lwh_uom" name="product_lwh_uom" id="product_lwh_uom_3" value="M" type="hidden"><input class="product_in_stock" name="product_in_stock" id="product_in_stock_3" value="0" type="hidden"><input type="hidden" class="basePrice" name="basePrice" id="basePrice_3" value="18000"><input type="hidden" class="basePriceWithTax" name="basePriceWithTax" id="basePriceWithTax_3" value="0"><input type="hidden" class="salesPrice" name="salesPrice" id="salesPrice_3" value="18000"><input type="hidden" class="taxAmount" name="taxAmount" id="taxAmount_3" value="0"><input type="hidden" class="priceWithoutTax" name="priceWithoutTax" id="priceWithoutTax_3" value="18000"><input type="hidden" class="discountAmount" name="discountAmount" id="discountAmount_3" value="0"><input type="hidden" class="sum_weight" name="sum_weight" id="sum_weight_3" value="0" ><input type="hidden" class="sum_basePrice" name="sum_basePrice" id="sum_basePrice_3" value="0" ><input type="hidden" class="sum_basePriceWithTax" name="sum_basePriceWithTax" id="sum_basePriceWithTax_3" value="0" ><input type="hidden" class="sum_taxAmount" name="sum_taxAmount" id="sum_taxAmount_3" value="0" ><input type="hidden" class="sum_discountAmount" name="sum_discountAmount" id="sum_discountAmount_3" value="0" ><input type="hidden" class="sum_priceWithoutTax" name="sum_priceWithoutTax" id="sum_priceWithoutTax_3" value="0" ><input type="hidden" class="sum_salesPrice" name="sum_salesPrice" id="sum_salesPrice_3" value="0" ><input type="hidden" class="min_order_level" name="min_order_level" id="min_order_level_3" value="0" ><input type="hidden" class="max_order_level" name="max_order_level" id="max_order_level_3" value="0" ><input type="hidden" class="product_box" name="product_box" id="product_box_3" value="0" ><input type="hidden" class="group_id" name="group_id" id="group_id_3" value="1" ><input type="hidden" class="def_group_qty" name="def_group_qty" id="def_group_qty_3" value="0" ><tr class="row_article" id="row_article_3"><td class="cell_name">Пихта Нордмана срезанная 200-225см бесплатная доставка по СПб</td><td class="cell_basePrice"><div id="basePrice_text_3"><div class="PricebasePrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricebasePrice">18000 р</span></div></div></td><td class="cell_quantity">
 					<span class="quantity-box"><input class="quantity-input js-recalculate" size="2" id="quantity_3" name="quantity[]" value="0" type="text" onblur='changeQuantity(3, "input", 0, 0, 0)'></span>
 					<span class="quantity-controls js-recalculate">
 					<input class="quantity-controls quantity-plus" onclick='changeQuantity(3, "plus", 0, 0, 0)' type="button"></span>
@@ -897,7 +914,12 @@ left: 0px !important;
 				<div class="back-to-category">
 			    	<a href="/jolki" class="abacktocat" title="Живые елки">Вернуться в: Живые елки</a>
 				</div>
-	<script   id="vmyandexmetricaecommercetracking_productdisplayshipment-js" type="text/javascript" >//<![CDATA[ 
+	
+
+
+
+
+<script   id="vmyandexmetricaecommercetracking_productdisplayshipment-js" type="text/javascript" >//<![CDATA[ 
 window.dataLayer = window.dataLayer || [];if(dataLayer.length == 1){
 	                        delete dataLayer.shift();
 		                    //console.log('количество товаров в массиве ' + dataLayer.length);
@@ -918,7 +940,10 @@ window.dataLayer = window.dataLayer || [];if(dataLayer.length == 1){
                         }
                    }
                 }); //]]>
-</script><script   id="updateChosen-js" type="text/javascript" >//<![CDATA[ 
+</script>
+
+
+<script   id="updateChosen-js" type="text/javascript" >//<![CDATA[ 
 if (typeof Virtuemart === "undefined")
 	var Virtuemart = {};
 	Virtuemart.updateChosenDropdownLayout = function() {
@@ -929,7 +954,9 @@ if (typeof Virtuemart === "undefined")
 	jQuery(document).ready( function() {
 		Virtuemart.updateChosenDropdownLayout($);
 	}); //]]>
-</script><script   id="updDynamicListeners-js" type="text/javascript" >//<![CDATA[ 
+</script>
+
+<script   id="updDynamicListeners-js" type="text/javascript" >//<![CDATA[ 
 jQuery(document).ready(function() { // GALT: Start listening for dynamic content update.
 	// If template is aware of dynamic update and provided a variable let's
 	// set-up the event listeners.
@@ -937,12 +964,15 @@ jQuery(document).ready(function() { // GALT: Start listening for dynamic content
 		Virtuemart.updateDynamicUpdateListeners();
 
 }); //]]>
-</script><script   id="ready.vmprices-js" type="text/javascript" >//<![CDATA[ 
+</script>
+
+<script   id="ready.vmprices-js" type="text/javascript" >//<![CDATA[ 
 jQuery(document).ready(function($) {
 
 		Virtuemart.product($("form.product"));
 }); //]]>
-</script><script   id="popups-js" type="text/javascript" >//<![CDATA[ 
+</script>
+<script   id="popups-js" type="text/javascript" >//<![CDATA[ 
 jQuery(document).ready(function($) {
 		
 		jQuery('a.ask-a-question, a.printModal, a.recommened-to-friend, a.manuModal').click(function(event){
@@ -955,7 +985,8 @@ jQuery(document).ready(function($) {
 		  });
 		
 	}); //]]>
-</script><script   id="imagepopup-js" type="text/javascript" >//<![CDATA[ 
+</script>
+<script   id="imagepopup-js" type="text/javascript" >//<![CDATA[ 
 jQuery(document).ready(function() {
 		Virtuemart.updateImageEventListeners()
 	});
@@ -977,7 +1008,8 @@ jQuery(document).ready(function() {
 			jQuery(".main-image .vm-img-desc").html(this.alt);
 		}); 
 	} //]]>
-</script><script   id="ajaxContent-js" type="text/javascript" >//<![CDATA[ 
+</script>
+<script   id="ajaxContent-js" type="text/javascript" >//<![CDATA[ 
 Virtuemart.container = jQuery('.productdetails-view');
 	Virtuemart.containerSelector = '.productdetails-view'; //]]>
 </script>
@@ -1125,7 +1157,7 @@ Virtuemart.container = jQuery('.productdetails-view');
             <a href="#" class="close-offcanvas" aria-label="Close"><i class="fa fa-remove" aria-hidden="true" title="HELIX_CLOSE_MENU"></i></a>
             <div class="offcanvas-inner">
                                   <div class="sp-module  searche_mob"><div class="sp-module-title">Используйте поиск</div><div class="sp-module-content"><!--BEGIN Search Box -->
-<form action="/component/virtuemart/results,1-100?search=true&amp;Itemid=1256" method="get">
+<form action="/component/virtuemart/results,1-100?search=true&amp;Itemid=224" method="get">
 <div class="search searche_mob">
 	<input name="keyword" id="mod_virtuemart_search" maxlength="20" placeholder="введите текст" class="inputbox searche_mob" type="text" size="16" /><br /><input type="submit" value="Поиск" class="button searche_mob" onclick="this.form.keyword.focus();"/></div>
 		<input type="hidden" name="limitstart" value="0" />
@@ -1151,7 +1183,7 @@ Virtuemart.container = jQuery('.productdetails-view');
                     <a href="javascript:void(0)" class="scrollup" aria-label="Go To Top">&nbsp;</a>
         
 <!-- Yandex.Metrika counter --> <script type="text/javascript">
-var yaParams = {ip_adress: "95.108.213.206"};
+var yaParams = {ip_adress: "93.100.35.116"};
 //объявляем параметр ip_adress и записываем в него IP посетителя
 </script>
 <script type="text/javascript" > 
@@ -1170,7 +1202,7 @@ var yaParams = {ip_adress: "95.108.213.206"};
 <noscript><div><img src="https://mc.yandex.ru/watch/18553588" style="position:absolute; left:-9999px;" alt="" /></div>
 </noscript> <!-- /Yandex.Metrika counter -->
 	  
-	</div></div></div><div id="sp-cookie-consent" class="position-bottom"><div><div class="sp-cookie-consent-content">Оставаясь на сайте, вы соглашаетесь с <a href="https://https://green-code.ru/politika-obrabotki-personalnykh-dannykh-green-code-ru">политикой обработки персональных данных</a> и даёте согласие на использование файлов <a href="https://green-code.ru/politika-ispolzovaniya-cookies">cookies,</a> и рекомендательных технологий."</div><div class="sp-cookie-consent-action"><a class="sp-cookie-close sp-cookie-allow" href="#">Хорошо</a></div></div></div>			<!-- Google Analytics -->
+	</div></div></div>			<!-- Google Analytics -->
 			<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
