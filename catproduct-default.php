@@ -208,12 +208,19 @@ foreach ($viewData[0] as $group) {
 				// start with showing product
 		$hidden_inputs = '';
 		if ($check_stock == 1 && $product['child']['product_in_stock'] > 0 || $check_stock == 0) {
-			// Сбор основных параметров и цен товара в переменную $hidden_inputs
-            // (Полный код скрытых полей доступен в исходных материалах)
-            // ...
+						$fields = array(
+				'product_id' => $product['child']['virtuemart_product_id'],
+				'product_name' => $product['child']['product_name'],
+				'salesPrice' => $see_price ? round((float)$product['prices']['salesPrice'], 2) : 0,
+				'product_in_stock' => $product['child']['product_in_stock'],
+				// другие необходимые параметры товара...
+			);
+			foreach ($fields as $key => $val) {
+				$hidden_inputs .= '<input type="hidden" class="'.$key.'" name="'.$key.'" id="'.$key.'_'.$i.'" value="'.htmlspecialchars((string)$val, ENT_QUOTES, 'UTF-8').'">';
+			}
+
 		}
 
-		
 		
 				echo '<tr class="row_article" id="row_article_'.$i.'">';
 		
