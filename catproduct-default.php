@@ -213,7 +213,7 @@ foreach ($viewData[0] as $group) {
             // ...
 		}
 
-		}
+		
 		
 				echo '<tr class="row_article" id="row_article_'.$i.'">';
 		
