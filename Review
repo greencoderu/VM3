@@ -16,199 +16,187 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Пихта Фразера 175см бесплатная доставка</p>
-			<p itemprop="reviewBody">Спасибо огромное! Ёлка (купили двухметровую пихту Фрезера) идеально ровная, очень пушистая, красивая невероятно - вся семья в восторге, даже кот). За доставку отдельная благодарность Максиму.</p>
-			<div class="review-photos"><img src="/images/reviews/spb-pihta-frazer-otzyv-1.jpg" alt="Пихта Фразера 175 см срезанная в квартире покупателя СПб" width="80" height="80" loading="lazy" decoding="async" /> <img src="/images/reviews/spb-pihta-frazer-otzyv-1-2.jpg" alt="Пушистая пихта Фразера с доставкой по Санкт-Петербургу" width="80" height="80" loading="lazy" decoding="async" /></div>
+			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+			<meta itemprop="name" content="Гринкод" />
 		</div>
-		<!-- 7.2 Алексей -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2022-12-20" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Алексей</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Живая Елка с Бесплатной доставкой по Санкт-Петербургу</p>
-			<p itemprop="reviewBody">Елка как на фото.</p>
-			<div class="review-photos"><img src="/images/reviews/spb-elka-2m-otzyv-1.jpg" alt="Живая новогодняя елка с бесплатной доставкой по СПб" width="80" height="80" loading="lazy" decoding="async" /> <img src="/images/reviews/spb-elka-2m-otzyv-1-2.jpg" alt="Срезанная живая ель в интерьере отзыв покупателя" width="80" height="80" loading="lazy" decoding="async" /></div>
-		</div>
-		<!-- 7.3 Анна 28.12.2022 -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2022-12-28" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Анна</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Живая Елка 2м+ с Бесплатной доставкой по Санкт-Петербургу</p>
-			<p itemprop="reviewBody">Днем написала, вечером уже наряжали чудесную пушистую елочку! Очень довольны, что обратились к этому продавцу.</p>
-			<div class="review-photos"><img src="/images/reviews/spb-elka-2m-otzyv-2.jpg" alt="Высокая живая елка от 2 метров в квартире Санкт-Петербург" width="80" height="80" loading="lazy" decoding="async" /> <img src="/images/reviews/spb-elka-2m-otzyv-2-1.jpg" alt="Высокая живая елка от 2 метров в квартире Санкт-Петербург" width="80" height="80" loading="lazy" decoding="async" /></div>
-		</div>
-		<!-- 7.4 Михаил 29.12.2022 -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2022-12-29" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Михаил</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Пихта Фразера 200-225см бесплатная доставка</p>
-			<p itemprop="reviewBody">Привезли бабушке красивую елку, очень вежливый и приветливый продавец! Спасибо большое!</p>
-		</div>
-		<!-- 7.5 Мария -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2022-12-31" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Мария</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Подставка для елки</p>
-			<p itemprop="reviewBody">Быстро договорились, рекомендую продавца</p>
-		</div>
-		<!-- 7.6 Марина 11.12.2024 + ответ -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2024-12-11" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Марина</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Пихта Фразера и Нордмана бесплатная доставка</p>
-			<p itemprop="reviewBody">Максим!! Спасибо огромное за чудесную Пихту Фразера. Все, как договаривались, привёз лучшую, как просили. Наслаждаемся нашей красивой елочкой.</p>
-			<p><em>Максим: Спасибо за отзыв!</em></p>
-		</div>
-		<!-- 7.7 София 21.12.2024 -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2024-12-21" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">София</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Пихта Фразера 225-250см бесплатная доставка</p>
-			<p itemprop="reviewBody">Прекрасная пихта Фразера, посмотрим сколько простоит 👍 Максим учел все пожелания, доставку получилось оформить в тот же день.</p>
-			<div class="review-photos"><img src="/images/reviews/spb-pihta-frazera-200cm-otzyv-3.jpg" alt="Свежая пихта Фразера доставка в день заказа СПб" width="80" height="80" loading="lazy" decoding="async" /></div>
-			<p><em>Максим: Спасибо за отзыв! С Наступающим Новым Годом</em></p>
-		</div>
-		<!-- 7.8 Надежда 23.12.2024 -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2024-12-23" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Надежда</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Пихта Фразера и Нордмана бесплатная доставка</p>
-			<p itemprop="reviewBody">С помощью Максима получилось быстро выбрать пихту на Новый год. Все деревья были пушистые и красивые... Максим быстро отвечает, присылает всю нужную информацию и фотки пихт. Доставка быстрая: заказала вечером в воскресенье, получила в понедельник. Ценник порадовал. Все супер!</p>
-		</div>
-		<!-- 7.9 Юлия -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2025-12-22" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Юлия</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Пихта Нордмана, Фразера, Голубая ель, Русская елка</p>
-			<p itemprop="reviewBody">Быстро и чётко. Рекомендую</p>
-		</div>
-		<!-- 7.10 Александр -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2026-01-14" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Александр</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Утилизация новогодних елок</p>
-			<p itemprop="reviewBody">Все отлично, оперативно упаковали ёлку, вывезли.</p>
-		</div>
-		<!-- 7.11 -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2026-01-15" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Дмитрий</span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Гирлянда 8м 100 светодиодов</p>
-			<p itemprop="reviewBody">всё отлично, большое спасибо!</p>
-		</div>
-		<!-- Яндекс.Карты Анна 29.12.2020 -->
-		<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
-			<link href="https://green-code.ru/" itemprop="url" />
-			<meta itemprop="datePublished" content="2020-12-29" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Анна </span></span>
-			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
-				<meta itemprop="ratingValue" content="5" />
-				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
-				<meta itemprop="name" content="Гринкод" />
-			</div>
-			<p itemprop="name">Голубая ель в горшке 125-150см</p>
-			<p itemprop="reviewBody">Покупала сегодня ёлку. Очень красивая ёлочка в горшке. Привезли на выбор 2 елки. Донесли до квартиры (5 этаж) и поставили на место. Горшок тяжёлый... Очень хорошая ёлочка, пушистая, ароматная. Утром менеджер сбросила фото и видео нескольких елок... Очень довольна и товаром и сервисом! Спасибо большое!</p>
-		</div>
+		<p itemprop="name">Пихта Фразера 175см бесплатная доставка</p>
+		<p itemprop="reviewBody">Спасибо огромное! Ёлка (купили двухметровую пихту Фрезера) идеально ровная, очень пушистая, красивая невероятно - вся семья в восторге, даже кот). За доставку отдельная благодарность Максиму.</p>
+		<div class="review-photos"><img src="/images/reviews/spb-pihta-frazer-otzyv-1.jpg" alt="Пихта Фразера 175 см срезанная в квартире покупателя СПб" width="80" height="80" loading="lazy" decoding="async" /> <img src="/images/reviews/spb-pihta-frazer-otzyv-1-2.jpg" alt="Пушистая пихта Фразера с доставкой по Санкт-Петербургу" width="80" height="80" loading="lazy" decoding="async" /></div>
 	</div>
-	<script type="text/javascript">
-		document.addEventListener('DOMContentLoaded', function() {
-			var images = document.querySelectorAll('.reviews-module .review-photos img');
-			if (!images.length) return;
+	<!-- 7.2 Алексей -->
+	<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+		<link href="https://green-code.ru/" itemprop="url" />
+		<meta itemprop="datePublished" content="2022-12-20" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Алексей</span></span>
+		<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+			<meta itemprop="ratingValue" content="5" />
+			<meta itemprop="bestRating" content="5" />★★★★★</div>
+		<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+		<meta itemprop="name" content="Гринкод" />
+	</div>
+	<p itemprop="name">Живая Елка с Бесплатной доставкой по Санкт-Петербургу</p>
+	<p itemprop="reviewBody">Елка как на фото.</p>
+	<div class="review-photos"><img src="/images/reviews/spb-elka-2m-otzyv-1.jpg" alt="Живая новогодняя елка с бесплатной доставкой по СПб" width="80" height="80" loading="lazy" decoding="async" /> <img src="/images/reviews/spb-elka-2m-otzyv-1-2.jpg" alt="Срезанная живая ель в интерьере отзыв покупателя" width="80" height="80" loading="lazy" decoding="async" /></div>
+</div>
+<!-- 7.3 Анна 28.12.2022 -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2022-12-28" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Анна</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Живая Елка 2м+ с Бесплатной доставкой по Санкт-Петербургу</p>
+<p itemprop="reviewBody">Днем написала, вечером уже наряжали чудесную пушистую елочку! Очень довольны, что обратились к этому продавцу.</p>
+<div class="review-photos"><img src="/images/reviews/spb-elka-2m-otzyv-2.jpg" alt="Высокая живая елка от 2 метров в квартире Санкт-Петербург" width="80" height="80" loading="lazy" decoding="async" /> <img src="/images/reviews/spb-elka-2m-otzyv-2-1.jpg" alt="Высокая живая елка от 2 метров в квартире Санкт-Петербург" width="80" height="80" loading="lazy" decoding="async" /></div>
+<!-- 7.4 Михаил 29.12.2022 -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2022-12-29" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Михаил</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Пихта Фразера 200-225см бесплатная доставка</p>
+<p itemprop="reviewBody">Привезли бабушке красивую елку, очень вежливый и приветливый продавец! Спасибо большое!</p>
+<!-- 7.5 Мария -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2022-12-31" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Мария</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Подставка для елки</p>
+<p itemprop="reviewBody">Быстро договорились, рекомендую продавца</p>
+<!-- 7.6 Марина 11.12.2024 + ответ -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2024-12-11" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Марина</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Пихта Фразера и Нордмана бесплатная доставка</p>
+<p itemprop="reviewBody">Максим!! Спасибо огромное за чудесную Пихту Фразера. Все, как договаривались, привёз лучшую, как просили. Наслаждаемся нашей красивой елочкой.</p>
+<p><em>Максим: Спасибо за отзыв!</em></p>
+<!-- 7.7 София 21.12.2024 -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2024-12-21" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">София</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Пихта Фразера 225-250см бесплатная доставка</p>
+<p itemprop="reviewBody">Прекрасная пихта Фразера, посмотрим сколько простоит 👍 Максим учел все пожелания, доставку получилось оформить в тот же день.</p>
+<div class="review-photos"><img src="/images/reviews/spb-pihta-frazera-200cm-otzyv-3.jpg" alt="Свежая пихта Фразера доставка в день заказа СПб" width="80" height="80" loading="lazy" decoding="async" /></div>
+<p><em>Максим: Спасибо за отзыв! С Наступающим Новым Годом</em></p>
+<!-- 7.8 Надежда 23.12.2024 -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2024-12-23" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Надежда</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Пихта Фразера и Нордмана бесплатная доставка</p>
+<p itemprop="reviewBody">С помощью Максима получилось быстро выбрать пихту на Новый год. Все деревья были пушистые и красивые... Максим быстро отвечает, присылает всю нужную информацию и фотки пихт. Доставка быстрая: заказала вечером в воскресенье, получила в понедельник. Ценник порадовал. Все супер!</p>
+<!-- 7.9 Юлия -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2025-12-22" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Юлия</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Пихта Нордмана, Фразера, Голубая ель, Русская елка</p>
+<p itemprop="reviewBody">Быстро и чётко. Рекомендую</p>
+<!-- 7.10 Александр -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2026-01-14" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Александр</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Утилизация новогодних елок</p>
+<p itemprop="reviewBody">Все отлично, оперативно упаковали ёлку, вывезли.</p>
+<!-- 7.11 -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2026-01-15" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Дмитрий</span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Гирлянда 8м 100 светодиодов</p>
+<p itemprop="reviewBody">всё отлично, большое спасибо!</p>
+<!-- Яндекс.Карты Анна 29.12.2020 -->
+<div class="review" itemscope="itemscope" itemtype="https://schema.org/Review" itemprop="review">
+	<link href="https://green-code.ru/" itemprop="url" />
+	<meta itemprop="datePublished" content="2020-12-29" /><span itemscope="itemscope" itemtype="https://schema.org/Person" itemprop="author"><span itemprop="name">Анна </span></span>
+	<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
+		<meta itemprop="ratingValue" content="5" />
+		<meta itemprop="bestRating" content="5" />★★★★★</div>
+	<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-name org-url org-phone org-address">&nbsp;</div>
+	<meta itemprop="name" content="Гринкод" />
+</div>
+<p itemprop="name">Голубая ель в горшке 125-150см</p>
+<p itemprop="reviewBody">Покупала сегодня ёлку. Очень красивая ёлочка в горшке. Привезли на выбор 2 елки. Донесли до квартиры (5 этаж) и поставили на место. Горшок тяжёлый... Очень хорошая ёлочка, пушистая, ароматная. Утром менеджер сбросила фото и видео нескольких елок... Очень довольна и товаром и сервисом! Спасибо большое!</p>
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+		var images = document.querySelectorAll('.reviews-module .review-photos img');
+		if (!images.length) return;
 
-			var overlay = document.createElement('div');
-			overlay.id = 'gc-lightbox';
-			overlay.innerHTML = '<span id="gc-lightbox-close" title="Закрыть">×</span><img src="" alt="" />';
-			document.body.appendChild(overlay);
+		var overlay = document.createElement('div');
+		overlay.id = 'gc-lightbox';
+		overlay.innerHTML = '<span id="gc-lightbox-close" title="Закрыть">×</span><img src="" alt="" />';
+		document.body.appendChild(overlay);
 
-			var fullImg = overlay.querySelector('img');
-			var closeBtn = document.getElementById('gc-lightbox-close');
+		var fullImg = overlay.querySelector('img');
+		var closeBtn = document.getElementById('gc-lightbox-close');
 
-			images.forEach(function(img) {
-				img.addEventListener('click', function() {
-					fullImg.src = this.src;
-					fullImg.alt = this.alt;
-					overlay.classList.add('active');
-				});
-			});
-
-			function closeLightbox() {
-				overlay.classList.remove('active');
-				fullImg.src = '';
-			}
-
-			overlay.addEventListener('click', function(e) {
-				if (e.target === overlay || e.target === closeBtn) {
-					closeLightbox();
-				}
-			});
-
-			document.addEventListener('keydown', function(e) {
-				if (e.key === 'Escape' && overlay.classList.contains('active')) {
-					closeLightbox();
-				}
+		images.forEach(function(img) {
+			img.addEventListener('click', function() {
+				fullImg.src = this.src;
+				fullImg.alt = this.alt;
+				overlay.classList.add('active');
 			});
 		});
-	</script>
-</div>
+
+		function closeLightbox() {
+			overlay.classList.remove('active');
+			fullImg.src = '';
+		}
+
+		overlay.addEventListener('click', function(e) {
+			if (e.target === overlay || e.target === closeBtn) {
+				closeLightbox();
+			}
+		});
+
+		document.addEventListener('keydown', function(e) {
+			if (e.key === 'Escape' && overlay.classList.contains('active')) {
+				closeLightbox();
+			}
+		});
+	});
+</script>
