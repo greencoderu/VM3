@@ -1,6 +1,6 @@
 <div class="reviews-module" itemscope="itemscope" itemtype="https://schema.org/Organization">
 	<h2>Отзывы покупателей о живых елках и пихтах Гринкод (Авито + Яндекс.Карты)</h2>
-	<p class="reviews-org-info"><span id="org-name" itemprop="name">Гринкод</span> (<a href="https://green-code.ru" id="org-url" itemprop="url">green-code.ru</a>) — <span id="org-address" itemscope="itemscope" itemtype="https://schema.org" itemprop="address"><span itemprop="addressLocality">Санкт-Петербург</span>, <span itemprop="streetAddress">ул. Садовая 1</span></span>, тел.: <span id="org-phone" itemprop="telephone">+7-904-610-69-05</span></p>
+	<p class="reviews-org-info"><span id="org-name" itemprop="name">Гринкод</span> <a href="https://green-code.ru" id="org-url" itemprop="url">green-code.ru</a> — <span id="org-address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress" itemprop="address"><span itemprop="addressLocality">Санкт-Петербург</span>, <span itemprop="streetAddress">ул. Садовая 1</span></span>, тел.: <span id="org-phone" itemprop="telephone">+7-904-610-69-05</span></p>
 	<div itemscope="itemscope" itemtype="https://schema.org/AggregateRating" itemprop="aggregateRating">
 		<meta itemprop="ratingValue" content="5" />
 		<meta itemprop="bestRating" content="5" />
@@ -16,7 +16,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Пихта Фразера 175см бесплатная доставка</p>
@@ -30,7 +30,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Живая Елка с Бесплатной доставкой по Санкт-Петербургу</p>
@@ -44,7 +44,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Живая Елка 2м+ с Бесплатной доставкой по Санкт-Петербургу</p>
@@ -58,7 +58,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Пихта Фразера 200-225см бесплатная доставка</p>
@@ -71,7 +71,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Подставка для елки</p>
@@ -84,7 +84,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Пихта Фразера и Нордмана бесплатная доставка</p>
@@ -98,7 +98,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Пихта Фразера 225-250см бесплатная доставка</p>
@@ -113,7 +113,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Пихта Фразера и Нордмана бесплатная доставка</p>
@@ -126,7 +126,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Пихта Нордмана, Фразера, Голубая ель, Русская елка</p>
@@ -139,7 +139,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Утилизация новогодних елок</p>
@@ -152,7 +152,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Гирлянда 8м 100 светодиодов</p>
@@ -165,7 +165,7 @@
 			<div itemscope="itemscope" itemtype="https://schema.org/Rating" itemprop="reviewRating">
 				<meta itemprop="ratingValue" content="5" />
 				<meta itemprop="bestRating" content="5" />★★★★★</div>
-			<div itemscope="itemscope" itemtype="https://schema.org" itemprop="itemReviewed" itemref="org-url org-phone org-address">
+			<div itemscope="itemscope" itemtype="https://schema.org/Organization" itemprop="itemReviewed" itemref="org-url org-phone org-address">
 				<meta itemprop="name" content="Гринкод" />
 			</div>
 			<p itemprop="name">Голубая ель в горшке 125-150см</p>
